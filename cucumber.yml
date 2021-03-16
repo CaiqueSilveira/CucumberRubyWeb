@@ -1,0 +1,7 @@
+---
+default: -p html -p bdd -p json
+html: --format html --out=features.html
+no_cloud_report: --publish-quiet
+dot: --format progress
+bdd: --format pretty
+json: --format json -o "report.json"
